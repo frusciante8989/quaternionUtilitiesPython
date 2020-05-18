@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+canoverip = {git = "https://bitbucket.org/automata_tech/canoverip.git"}
+pyyaml = "*"
+numpy = "*"
+tqdm = "*"
+evasdk = "~=3.0.0"
+
+[requires]
+python_version = "3.6"
